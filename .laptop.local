@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# don't open itunes when play button is pressed
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
